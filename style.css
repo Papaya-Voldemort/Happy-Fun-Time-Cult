@@ -1,0 +1,145 @@
+body {
+    background: #18181b;
+    color: #f3f3f3;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: rgba(30, 30, 40, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 0 40px 0 #ff00cc44;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.7rem;
+    color: #ff00cc;
+    letter-spacing: 2px;
+    margin-bottom: 0.2em;
+    text-shadow: 0 0 10px #ff00cc88;
+}
+
+.subtitle {
+    color: #b3b3b3;
+    font-size: 1.2rem;
+    margin-bottom: 1.5em;
+}
+
+.emoji {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.15rem;
+}
+
+.join-form {
+    background: #232336;
+    border-radius: 12px;
+    padding: 1.5em 1em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 20px 0 #ff00cc22;
+}
+
+.join-form h2 {
+    color: #ff00cc;
+    margin-bottom: 1em;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 6px;
+    border: none;
+    background: #1a1a24;
+    color: #fff;
+    margin-bottom: 0.7em;
+    font-size: 1em;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: 2px solid #ff00cc;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.checkbox-group label {
+    margin: 0 0 0 0.5em;
+    font-size: 0.98em;
+}
+
+button[type="submit"] {
+    background: linear-gradient(90deg, #ff00cc 0%, #3333ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8em 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff00cc88;
+    transition: background 0.2s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #3333ff 0%, #ff00cc 100%);
+    transform: scale(1.05);
+}
+
+.activities {
+    margin-bottom: 2em;
+}
+
+.activities h2 {
+    color: #ff00cc;
+    margin-bottom: 0.7em;
+}
+
+.activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activities li {
+    background: #232336;
+    margin-bottom: 0.5em;
+    padding: 0.7em 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ff00cc22;
+    font-size: 1.05em;
+    position: relative;
+}
+
+.activities li:before {
+    content: "🎉 ";
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 0.95em;
+    margin-top: 2em;
+}
