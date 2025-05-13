@@ -1,4 +1,3 @@
-// Gemini AI Assistant for Happy Fun Time Cult
 // Uses Google Gemini API
 
 const GEMINI_API_KEY = "AIzaSyC8eGDZHipbhoRCiqLNs4idvw3Lq6bT5c8";
